@@ -1,4 +1,5 @@
 #!/bin/bash -e
+# docker run --rm -it -v ${PWD}:/root -w /root debian /bin/bash;
 
 apt-get update && sudo apt-get -y upgrade
 
